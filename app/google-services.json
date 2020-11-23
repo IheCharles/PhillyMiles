@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "22940010334",
+    "firebase_url": "https://phillymiles-a2382.firebaseio.com",
+    "project_id": "phillymiles-a2382",
+    "storage_bucket": "phillymiles-a2382.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:22940010334:android:05089a6a9c313e056ab1cf",
+        "android_client_info": {
+          "package_name": "com.example.phillymiles"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "22940010334-g2tm69njr0hmsp9pus0ma1m0q2fro0e3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8PGxi0Cr3xP8R-slQsVAAIHnr1a0b4HM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "22940010334-g2tm69njr0hmsp9pus0ma1m0q2fro0e3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <ImageView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:src="@drawable/family"
+        android:fitsSystemWindows="true"
+        android:scaleType="centerCrop" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="90dp"
+            android:textColor="#ffffff"
+
+            android:textSize="25sp"
+            android:id="@+id/welc"
+            android:typeface="sans"
+            android:text="Keep your family active" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:textColor="#ffffff"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:id="@+id/welc2"
+            android:typeface="sans"
+            android:text="Make being active fun"
+            android:layout_marginBottom="30dp" />
+    </LinearLayout>
+
+</RelativeLayout>

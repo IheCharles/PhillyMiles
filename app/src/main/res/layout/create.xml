@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/blur"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_marginStart="10dp"
+
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_marginEnd="10dp"
+        android:layout_centerVertical="true"
+
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_height="wrap_content">
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:clickable="false"
+                app:cardPreventCornerOverlap="true"
+                android:id="@+id/irart"
+                android:layout_marginTop="6dp"
+                app:cardBackgroundColor="#ffffff"
+                app:cardElevation="0dp"
+                app:cardCornerRadius="20dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:background="@drawable/fade2"/>
+
+                <TextView
+                    android:id="@+id/textview_popup"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ffffff"
+                    android:textSize="30sp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="15dp"
+                    android:text="Create a group"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingTop="120dp"
+                    android:orientation="vertical">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="30dp">
+                    <TextView
+                        android:id="@+id/m1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+
+                        android:textColor="#ff0000"
+                        android:textSize="15dp"
+                        android:layout_alignParentEnd="true"
+                        android:text="Missing Field" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="#000000"
+                        android:text="Group Name"/>
+
+
+                </RelativeLayout>
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card1"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    app:cardBackgroundColor="#ffffff"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginEnd="10dp"
+                    app:cardElevation="0.5dp"
+                    android:layout_marginStart="10dp"
+                    app:cardCornerRadius="10dp">
+
+                    <EditText
+                        android:id="@+id/editText"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@null"
+                        android:layout_marginLeft="20dp"
+                        android:textColorHint="#f3f3f5"
+
+                        android:textSize="20sp"
+                        android:textColor="#000000"
+                        android:inputType="textPersonName"
+                        android:hint="group name" />
+
+                </androidx.cardview.widget.CardView>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="30dp">
+                    <TextView
+                        android:id="@+id/m2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:layout_marginEnd="10dp"
+                        android:layout_alignParentEnd="true"
+                        android:textColor="#ff0000"
+                        android:textSize="15dp"
+                        android:layout_gravity="end"
+                        android:text="Missing Field"  />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="#000000"
+                        android:text="Username"/>
+
+
+                </RelativeLayout>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginEnd="10dp"
+                    app:cardBackgroundColor="#ffffff"
+                    app:cardElevation="0.5dp"
+                    android:layout_marginStart="10dp"
+                    app:cardCornerRadius="10dp">
+                    <EditText
+                        android:id="@+id/editText2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@null"
+                        android:hint="Username"
+                        android:textSize="20sp"
+                        android:textColor="#000000"
+                        android:textColorHint="#f3f3f5"
+                        android:layout_marginLeft="20dp"
+                        android:inputType="textPersonName" />
+                </androidx.cardview.widget.CardView>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="10dp"
+
+                        android:layout_marginTop="20dp"
+                        android:layout_marginStart="30dp">
+                        <TextView
+                            android:id="@+id/m3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@null"
+                            android:layout_marginEnd="10dp"
+                            android:layout_alignParentEnd="true"
+                            android:textColor="#ff0000"
+                            android:textSize="15dp"
+                            android:layout_gravity="end"
+                            android:text="Missing Field"  />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="20sp"
+                            android:textColor="#000000"
+                            android:text="Group ID"/>
+
+
+                    </RelativeLayout>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:id="@+id/create"
+                        android:layout_marginBottom="20dp"
+                        android:layout_marginEnd="10dp"
+                        app:cardBackgroundColor="#ffffff"
+                        app:cardElevation="0.5dp"
+                        android:layout_marginStart="10dp"
+                        app:cardCornerRadius="10dp">
+                        <EditText
+                            android:id="@+id/editText3"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@null"
+                            android:hint="group id"
+                            android:textSize="20sp"
+                            android:textColor="#000000"
+                            android:textColorHint="#f3f3f5"
+                            android:layout_marginLeft="20dp" />
+                    </androidx.cardview.widget.CardView>
+
+
+
+                    <LinearLayout
+                    android:layout_width="match_parent"
+                    android:weightSum="2"
+                    android:layout_height="match_parent">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:id="@+id/card_cancel"
+                        android:layout_weight="1"
+                        app:cardElevation="3dp"
+                        app:cardBackgroundColor="#f3f3f5"
+                        android:layout_marginBottom="20dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginStart="10dp"
+                        app:cardCornerRadius="15dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="cancel"
+                            android:textSize="25sp"
+                            android:textColor="#000000"
+                            android:gravity="center"/>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:id="@+id/card_create"
+                        android:layout_weight="1"
+                        app:cardPreventCornerOverlap="true"
+                        app:cardElevation="3dp"
+                        android:layout_marginBottom="20dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginStart="10dp"
+                        app:cardCornerRadius="15dp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/fade"/>
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="create"
+                            android:textSize="25sp"
+                            android:textColor="#ffffff"
+                            android:gravity="center"/>
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+
+    </RelativeLayout>
+</RelativeLayout>
